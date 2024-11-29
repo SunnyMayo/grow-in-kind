@@ -5,12 +5,15 @@
 body {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin: 0;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: aquamarine;
 }
 
 ul {
@@ -20,6 +23,77 @@ ul {
     text-decoration: none;
 }
 
-li {
+.nav-item {
     display: inline-flex;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#left-side {
+    flex: 25%;
+    background-color: bisque;
+}
+
+#content {
+    flex: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro {
+    background-color: violet;
+    border: 5px solid purple;
+    border-radius: 20px;
+    margin: 10%;
+    padding: 10px;
+}
+
+#prompts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: row;
+}
+
+.prompt-box {
+    background-color: orange;
+}
+
+#playbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 540px;
+    max-width: 540px;
+    background-image: url("./images/Ground_02.png");
+}
+
+#playground {
+    margin: 24px;
+    background-image: url("./images/Dirt_01.png");
+    width: 80%;
+    height: 80%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: maroon;
+    height: 100px;
+}
+
+#footnote {
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(72, 202, 60);
+}
+
+a {
+    text-decoration: none;
 }
