@@ -67,16 +67,14 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    max-height: 540px;
-    max-width: 540px;
+    height: 512px;
+    width: 512px;
     background-image: url("./images/Ground_02.png");
 }
 
 #playground {
-    margin: 24px;
     background-image: url("./images/Dirt_01.png");
-    width: 80%;
-    height: 80%;
+
 }
 
 footer {
