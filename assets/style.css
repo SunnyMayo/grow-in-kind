@@ -11,7 +11,10 @@ body {
 nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    background-color: beige;
+    padding: 0 10px;
 }
 
 #nav-list > li {
